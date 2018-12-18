@@ -43,7 +43,11 @@ class Chip extends React.Component {
         return (
                 <div className={this.state.hasOpened ? 'chipOpened' : 'chip'} style={{ backgroundImage : `url(${this.props.backgroundImage})`}} onMouseOver={() => { this.props.history.push(this.props.link); this.handleOpen();}}>
 
-                
+                <PreCacheImg
+                  images={[
+                      require('../assets/hero-2.jpg')
+                  ]}
+                />
 
                 </div>
         )
