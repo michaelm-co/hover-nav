@@ -45,7 +45,6 @@ class Chip extends React.Component {
 
                 <PreCacheImg
                   images={[
-                      require('../assets/hero-1.jpg'),
                       require('../assets/hero-2.jpg'),
                       require('../assets/hero-3.jpg'),
                       require('../assets/hero-4.jpg'),
