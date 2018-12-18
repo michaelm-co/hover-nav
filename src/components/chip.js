@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import PreCacheImg from 'react-precache-img';
 import {
   withRouter
 } from 'react-router-dom'
@@ -42,7 +43,7 @@ class Chip extends React.Component {
         return (
                 <div className={this.state.hasOpened ? 'chipOpened' : 'chip'} style={{ backgroundImage : `url(${this.props.backgroundImage})`}} onMouseOver={() => { this.props.history.push(this.props.link); this.handleOpen();}}>
 
-
+                
 
                 </div>
         )
