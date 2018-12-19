@@ -45,7 +45,7 @@ class Chip extends React.Component {
 
                 <PreCacheImg
                   images={[
-                      require('../assets/hero-2.jpg')
+                      'https://images.ctfassets.net/fiz3jwws2um7/3E4c5t4YY08ga8WO0uOou/e767a6fb295e7c7fdc940bc839ccfbb8/tile-goose__1_.jpg?fit=crop&h=900&w=900'
                   ]}
                 />
 
