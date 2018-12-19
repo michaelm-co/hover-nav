@@ -40,6 +40,13 @@ const Layout = ({ children, data }) => (
       />
     </nav>
 
+    <div className="noshow">
+      <img src={require("../assets/hero-2.jpg")} alt=""/>
+      <img src={require("../assets/hero-3.jpg")} alt=""/>
+      <img src={require("../assets/hero-4.jpg")} alt=""/>
+      <img src={require("../assets/hero-5.jpg")} alt=""/>
+    </div>
+
     <div className="pageContainer">
       {children()}
     </div>

@@ -21,6 +21,10 @@ nav{
   background-position: center;
 }
 
+.noshow{
+  display: none;
+}
+
 #header-2{
   background-image: url("../assets/hero-2.jpg");
 }
